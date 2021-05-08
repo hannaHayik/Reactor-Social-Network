@@ -9,7 +9,7 @@ public abstract class Operation {
 	public Operation(byte[] msg) {
 		this.msg=msg;
 	}
-	
+	 
 	public abstract int getOperationCode();
 
 	public abstract String process(Connections<Operation> connections, int numberOfConnection, DataBase database);
