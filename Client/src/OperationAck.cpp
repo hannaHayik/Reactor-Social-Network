@@ -15,7 +15,7 @@ OperationAck::OperationAck(char bytesArr[]):OpNumber(0),listOfNames({}),numberOf
     char *tmp = bytesArr;
 
     this->OpNumber = this->bytesToShort(tmp);
-
+ 
     if (this->OpNumber == 4 || this->OpNumber == 7)
     {
         char numberOfUsersBytes[2];
