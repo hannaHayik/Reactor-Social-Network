@@ -6,7 +6,7 @@
 #include "OperationError.h"
 #include "OperationNotification.h"
 #include "OperationAck.h"
- bool flag = true;
+bool flag = true;
 bool loggedIn=false;
 bool socketFlag=true;
 
