@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.net.Socket;
 
 public class RCIClient implements Closeable {
-
+ 
     private final ObjectEncoderDecoder encdec;
     private final Socket sock;
     private final BufferedInputStream in;
