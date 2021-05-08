@@ -6,7 +6,7 @@ import bgu.spl.net.api.MessageEncoderDecoder;
 
 public class MessageEncoderDecoderImpl implements MessageEncoderDecoder<Operation> {
 
-	private int OpNumberCounter = 0; //if == 2, means we got an OP number.
+	private int OpNumberCounter = 0; //if == 2, means we got an OP number. 
 	private Vector<Byte> bytesVector = new Vector<Byte>(); //Instead of using char[1024] we use a dynamic Data structure.
 	private int OpNumber = 0;
 	private int zeroBytesCounter = 0;
