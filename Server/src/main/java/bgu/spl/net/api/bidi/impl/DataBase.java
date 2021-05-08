@@ -31,7 +31,7 @@ public class DataBase {
 		this.postsMap = new ConcurrentHashMap<String, List<String>>();
 	}
 
-	// If user offline, this hashmap saves all PM sent to him while offline.
+	// If user offline, this  hashmap saves all PM sent to him while offline.
 	public void addMessageToUser(String message, String name, String sender) {
 		synchronized (this.messagesWhileOffline) {
 			if (this.messagesWhileOffline.containsKey(name)) {
