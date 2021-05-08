@@ -3,7 +3,7 @@ package bgu.spl.net.api.bidi;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
-
+ 
 import bgu.spl.net.api.bidi.impl.DataBase;
 
 public class OperationPost extends Operation {
